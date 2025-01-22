@@ -42,6 +42,20 @@ body {
     fill: var(--color-secondary-text);
 }
 
+/* Search bar */
+.weather-search-bar-wrapper {
+    width: 100%;
+}
+
+.weather-search-bar-wrapper > input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid var(--color-secondary-text);
+}
+
 /* Primary weather data */
 .primary-weather-data {
     margin: 48px 0px;
