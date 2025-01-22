@@ -28,6 +28,7 @@ body {
 .primary-weather-data {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .weather-container {
@@ -39,6 +40,26 @@ body {
 
 .weather-container svg {
     fill: var(--color-secondary-text);
+}
+
+/* Primary weather data */
+.primary-weather-data {
+    margin: 48px 0px;
+    gap: 12px;
+}
+
+.weather-location {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.weather-temperature {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.weather-condition {
+    font-size: 1.2rem;
 }
 
 /* Secondary weather data */
