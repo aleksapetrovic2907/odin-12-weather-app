@@ -4,11 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin | Weather App</title>
-    <link href="styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/dom.js" defer></script>
   </head>
   <body>
-    
+    <div class="weather-container">
+      <section class="weather-search-bar-wrapper">
+        <input type="text" placeholder="Type a location here.." />
+      </section>
+      <section class="primary-weather-data">
+        <div class="weather-temperature" data-unit="celsius"></div>
+        <div class="weather-condition"></div>
+      </section>
+      <section class="secondary-weather-data">
+        <div class="weather-humidity">
+          <svg></svg>
+          <div>Humidity</div>
+          <div></div>
+        </div>
+        <div class="weather-windspeed">
+          <svg></svg>
+          <div>Wind Speed</div>
+          <div></div>
+        </div>
+        <div class="weather-cloudcover">
+          <svg></svg>
+          <div>Cloud Cover</div>
+          <div></div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
