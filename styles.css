@@ -13,7 +13,8 @@ body {
     align-items: center;
 }
 
-.weather-container, .primary-weather-data {
+.weather-container,
+.primary-weather-data {
     display: flex;
     flex-direction: column;
 }
