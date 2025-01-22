@@ -40,3 +40,21 @@ body {
 .weather-container svg {
     fill: var(--color-secondary-text);
 }
+
+/* Secondary weather data */
+.secondary-weather-data {
+    display: flex;
+    gap: 32px;
+}
+
+.secondary-weather-data > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.secondary-weather-data svg {
+    width: 32px;
+    height: 32px;
+}
