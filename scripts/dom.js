@@ -11,6 +11,8 @@ searchInput.addEventListener("keydown", (e) => {
     displayWeatherData(searchInput.value);
 });
 
+displayWeatherData("New York");
+
 async function displayWeatherData(location) {
     const data = await getWeatherData(location);
 
