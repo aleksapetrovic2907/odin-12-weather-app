@@ -52,9 +52,27 @@ body {
     box-sizing: border-box;
     padding: 6px 8px;
     font-size: 1.2rem;
+    color: var(--color-secondary-text);
     border: none;
     border-bottom: 1px solid var(--color-secondary-text);
+    transition-duration: .2s;
 }
+
+.weather-search-bar-wrapper > input::placeholder {
+    transition-duration: .2s;
+    color: var(--color-secondary-text);
+}
+
+.weather-search-bar-wrapper > input:focus {
+    outline: none;
+    color: var(--color-primary-text);
+    border-color: var(--color-primary-text);
+}
+
+.weather-search-bar-wrapper > input:focus::placeholder {
+    color: var(--color-primary-text);
+}
+
 
 /* Primary weather data */
 .primary-weather-data {
