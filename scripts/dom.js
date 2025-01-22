@@ -15,7 +15,7 @@ async function displayWeatherData(location) {
     const data = await getWeatherData(location);
 
     if (!data || data.error) {
-        // TODO: Find a way to handle this
+        console.error("Error retrieving weather data: ", data?.error || "Invalid data format");
         return;
     }
 
