@@ -20,7 +20,7 @@ async function displayWeatherData(location) {
     }
 
     weatherLocation.innerText = data.resolvedAddress;
-    temperature.innerText = data.currentConditions.temp; // TODO: Convert to celsius
+    temperature.innerText = `${data.currentConditions.temp}°C`;
     condition.innerText = data.currentConditions.conditions;
     humidity.innerText = data.currentConditions.humidity;
     windSpeed.innerText = data.currentConditions.windspeed;
